@@ -10,16 +10,16 @@ Unfortunately due to the singlethreaded nature, when the device checks for updat
 Besides the networking and jpg library, I would probably make a quick UI library to tidy up a lot of the design and code, adding in the missing features like volume/next+prev/shuffle etc.
 
 The project relies on:
-	- arduino_secrets.h (Your WiFi details and your Spotify API client id/secret)
-		- SECRET_SSID
-		- SECRET_PASS
-		- SECRET_CLIENT_ID
-		- SECRET_CLIENT_SECRET
-	- JPEGDEC (used for drawing the album art to the display)
-	- QRCode
-	- ArduinoJson
-	- Arduino_OAuth
-	- General Adafruit requirements for the PyPortal
+- arduino_secrets.h (Your WiFi details and your Spotify API client id/secret)
+	- SECRET_SSID
+	- SECRET_PASS
+	- SECRET_CLIENT_ID
+	- SECRET_CLIENT_SECRET
+- JPEGDEC (used for drawing the album art to the display)
+- QRCode
+- ArduinoJson
+- Arduino_OAuth
+- General Adafruit requirements for the PyPortal
 
 # Login via QR code
 ![Alt text](/login.jpg?raw=true "Login preview")
